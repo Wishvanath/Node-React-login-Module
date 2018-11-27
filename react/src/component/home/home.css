@@ -1,0 +1,341 @@
+
+/* ----------------------
+        NAVBAR CSS
+-------------------------*/
+.home_navbar{
+    min-height: 80px;
+    background: #e2e2e2;
+    border-radius: initial;
+    border: 1px solid #e3d9d9;
+}
+
+.navbar-nav > li > .dropdown-menu{
+    margin-top:15px;
+}
+.home_nav_brand img{
+    width: 18%;
+    margin-top:-15px;
+}
+.home_navbar .navbar-nav > li > a {
+    color: #487d5d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.home_navbar .navbar-nav > li > a:hover{
+    background:green;
+    color:white;
+}
+.home_navbar .navbar-nav > .open > a{
+    box-shadow: none;
+    background:inherit;
+}
+.home_navbar .navbar-nav > .open > a, .home_navbar .navbar-nav > .open > a:focus, .home_navbar .navbar-nav > .open > a:hover{
+    background-color: green;
+    color:white;
+}
+/* --------------------------
+        END OF NAVBAR CSS
+----------------------------- */
+.row{
+    margin-right: auto;
+}
+.home_body_back{
+    height: 490px;
+    margin-top: -25px;
+    background-color: #0f2812;
+    background-image: url('/image/slider_image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover; 
+    /* background-size: auto; */
+    /* background-attachment: fixed; */
+}
+.slider_tag{
+    color:white;
+    padding: 30px;
+    text-align: center;
+}
+.slider_tag h3{
+    margin-bottom: 25px;
+}
+.slider_tag p{
+    line-height: 15px;
+}
+.home_reg_body{
+    background:white;
+    color:black;
+    padding:30px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 8px #cccccc;
+    margin-bottom:30px;
+}
+.home_reg_body:hover{
+    box-shadow: 2px 15px 10px #cccccc;
+} 
+.reg_heading{
+    text-align: center;
+    color: #2D2D2D;
+}
+.reg_heading h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.reg_form_body{
+    padding: 35px
+}
+.txt_reg_lable{
+    font-size: 13px;
+    color:#585858;
+    margin-top: 10px;
+    
+}
+.txt_reg_input{
+    height: 42px;
+    border-radius: initial;
+    border-radius: 2px;
+}
+.txt_reg_radio{
+    font-size: 14px;
+    color:#585858;
+    margin-top: 15px;
+}
+.reg_btn{
+    height: 42px;
+    display: block;
+    border:none;
+    border-radius:2px;
+   
+}
+.home_reg_btn{
+    text-align: center;
+    padding: 15px;
+}
+.how_it_works_head{
+    text-align: center;
+    color:#383838;
+}
+.how_it_works_head h2{
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+.work_flow_section img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.work_flow_section{
+    text-align: center;
+}
+.how_it_works_body{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cost_effect_heading{
+    text-align: center;
+}
+.cost_effect_heading h2{
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cost_effect_body{
+    background: #dfdfdf;
+}
+.cost_effect_image{
+    text-align: center;
+}
+.cost_effect_image img{
+    width: 60%;
+    margin-left:200px;
+}
+.cost_fa_icon{
+    margin-right: 10px;
+    font-size: 15px;
+    border:2px solid green;
+    border-radius: 150px;
+    padding: 5px;
+    color:green;
+    margin-top: 20px;
+}
+.cost_features{
+    font-size: 15px;
+    color:#212121;
+}
+.aritrekk_footer{
+    padding: 40px;
+    background:#242424;
+    color:#FBFBFB;
+}
+.agri_symbol span{
+    float: right;
+}
+.login_close{
+    float: right;
+}
+.advisory_login_close{
+    border:none;
+    background: transparent;
+    margin-right: 10px;
+}
+.advisory_login_close:hover{
+    background:transparent;
+}
+.advisory_login_icon{
+    text-align: center;
+    padding: 40px;
+}
+.advisory_login_icon img{
+    width: 20%;
+}
+.advisory_login_form{
+    padding:30px;
+}
+.txt_adv_login{
+    height: 42px;
+    border-radius: initial;
+    margin-bottom: 25px;
+}
+.modal-dialog{
+    width:400px;
+}
+.adv_forget_pass h4{
+    font-size: 14px;
+    color:#155c31;
+}
+.adv_forget_pass h4:hover{
+    color:#14bd57;
+}
+.btn_adv_login{
+    height: 42px;
+    border-radius: initial;
+    background:#155c31;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------
+CSS FOR MEDIA QUERY
+----------------------------- */
+
+/* FOR EXTERA SMALL DEVICE */
+
+@media(max-width: 767px){
+   
+    .home_nav_brand img{
+        width: 30%;
+        margin-top:-10px;
+    }
+    .how_it_works_head h2{
+        margin-top: 600px;
+    }
+    .cost_effect_image img{
+        margin-left: 50px;
+        width:60%;
+    }
+    .cost_effect_features{
+        margin-left: 50px;
+    }
+    
+}
+
+
+
+/* FOR SMALL DEVICE */
+@media (min-width: 768px) and (max-width: 991px){
+    
+    .home_navbar_right{
+        margin-top:-35px;
+    }
+    .cost_features{
+        font-size: 12px;
+    }
+    .cost_fa_icon{
+        font-size: 8px;
+    }
+    .cost_effect_image img{
+        margin-left: 150px;
+        width:70%;
+    }
+    .cost_effect_features{
+        margin-top: 40px;
+    }
+}
+
+/* FOR MEDIUM SCREEN */
+@media (min-width: 992px) and (max-width: 1280px) {
+    
+    .home_navbar_right{
+        margin-top:-35px;
+    }
+    .home_reg_body{
+        margin-left: 350px;
+    }
+    .cost_effect_features{
+        margin-top: 15px;
+        
+    }
+    
+}    
+
+
+
+
+/* FOR LARGE DEVICE */
+@media (min-width: 1200px){
+   
+    .home_navbar_right{
+        margin-top:12px;
+    }
+    .home_reg_body{
+        margin-left: 383px;
+    }
+    .cost_effect_features{
+        margin-top: 40px;
+        
+    }
+    
+}
+
+
+
+
+
+
+
+

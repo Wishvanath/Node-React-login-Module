@@ -1,0 +1,80 @@
+.body{
+    background:#e2e2e2;
+}
+.faq_body{
+    margin-top:-20px;
+    background: white;
+    border-top: 1px solid #d6dadb;
+}
+.help-fa{
+    font-size: 30px;
+    margin-right: 10px;
+    color:#155c31;
+}
+.help_tag{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: -15px;
+}
+.help_tag .help_heading{
+    font-size: 25px;
+    color: #383838;
+}
+.answer_txt{
+    font-size: 14px;
+}
+.question_txt{
+    font-size: 15px;
+}
+
+.answer_section8,
+.answer_section7,
+.answer_section6,
+.answer_section5,
+.answer_section4,
+.answer_section3,
+.answer_section2,
+.answer_section1{
+    background:#f9fafb;
+    padding: 20px;
+    display: none;
+}
+.question_sec8:hover,
+.question_sec7:hover,
+.question_sec6:hover,
+.question_sec5:hover,
+.question_sec4:hover,
+.question_sec3:hover,
+.question_sec2:hover,
+.question_sec1:hover{
+    cursor: pointer;
+    background:#d5e1ec;
+}
+.question_sec8,
+.question_sec7,
+.question_sec6,
+.question_sec5,
+.question_sec4,
+.question_sec3,
+.question_sec2,
+.question_sec1{
+    padding: 20px;
+    border:1px solid #d6dadb;
+    background: white;
+}
+.container.faq_question_section {
+    margin-bottom: 80px;
+}
+.right_icon{
+    font-size: 20px;
+    margin-right: 12px;
+    color:#155c31;
+}
+.up_icon{
+    font-size: 20px;
+    margin-right: 12px;
+    color:#155c31;
+}
+.up_icon:hover{
+    cursor: pointer;
+}

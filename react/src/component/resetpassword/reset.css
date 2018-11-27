@@ -1,0 +1,36 @@
+.reset_body{
+    margin-top: 100px;
+}
+.reset_logo img{
+    width: 50%;
+}
+.reset_inst{
+    color:black;
+}
+.reset_logo{
+    text-align: center;
+}
+.txt_reset_input{
+    border-radius:initial;
+    border:none;
+}
+.rest_btn{
+    text-align: center;
+}
+img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+@media(max-width: 767px){
+    
+    .reset_inst {
+        color: white;
+    }
+}    
